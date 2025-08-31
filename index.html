@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment App for Students</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>😊 Sentiment Checker</h1>
+    <p>Type a sentence and see if it’s Positive, Negative or Neutral!</p>
+
+    <textarea id="userInput" placeholder="Write something here..."></textarea>
+    <button onclick="analyzeSentiment()">Check Sentiment</button>
+
+    <div id="result-box" class="hidden">
+      <h2 id="result"></h2>
+      <p id="emoji"></p>
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
